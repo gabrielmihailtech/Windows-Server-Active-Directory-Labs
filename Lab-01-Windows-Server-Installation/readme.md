@@ -43,8 +43,11 @@ The following configuration was used:
 | Host Operating System | Windows 10 Home |
 
 The virtual disk was stored on a separate internal partition to avoid using the host operating system's primary storage.
+
 01-vm-hardware.png
+
 02-virtual-disk.png
+
 **Evidence – Screenshot 1:** VirtualBox virtual hardware and disk configuration.
 
 ## 2. Windows Server Installation
@@ -89,6 +92,7 @@ File Explorer and Server Manager opened normally, with no significant performanc
 The host computer experienced minor delays when running the virtual machine alongside other applications, but remained usable.
 
 ![Server Properties](screenshots/03-server-properties.png)
+
 **Evidence – Screenshot 2:** Server Manager – Local Server properties.
 
 ## 4. Network Configuration Investigation
