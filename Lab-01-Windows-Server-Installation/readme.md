@@ -43,7 +43,8 @@ The following configuration was used:
 | Host Operating System | Windows 10 Home |
 
 The virtual disk was stored on a separate internal partition to avoid using the host operating system's primary storage.
-
+![Virtual Machine Hardware](screenshots/01-vm-hardware.png)
+![Virtual Disk](screenshots/02-virtual-disk.png)
 **Evidence – Screenshot 1:** VirtualBox virtual hardware and disk configuration.
 
 ## 2. Windows Server Installation
@@ -87,6 +88,7 @@ File Explorer and Server Manager opened normally, with no significant performanc
 
 The host computer experienced minor delays when running the virtual machine alongside other applications, but remained usable.
 
+![Server Properties](screenshots/03-server-properties.png)
 **Evidence – Screenshot 2:** Server Manager – Local Server properties.
 
 ## 4. Network Configuration Investigation
@@ -161,6 +163,7 @@ Although the DNS server name appeared as "Unknown", the query returned valid res
 
 **Status: PASS**
 
+![Network Connectivity Tests](screenshots/04-network-tests.png)
 **Evidence – Screenshot 3:** Command Prompt showing gateway, external connectivity, and DNS test results.
 
 ## 6. Virtual Machine Snapshot
@@ -175,6 +178,7 @@ The snapshot preserves the initial server state before installing Active Directo
 
 **Result:** Snapshot created successfully.
 
+![Clean Installation Snapshot](screenshots/05-clean-snapshot.png)
 **Evidence – Screenshot 4:** VirtualBox Snapshots showing the clean installation snapshot.
 
 ## 7. Final Results
