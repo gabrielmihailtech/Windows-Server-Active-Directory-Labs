@@ -44,9 +44,9 @@ The following configuration was used:
 
 The virtual disk was stored on a separate internal partition to avoid using the host operating system's primary storage.
 
-01-vm-hardware.png
+![Virtual Machine Hardware](01-vm-hardware.png)
 
-02-virtual-disk.png
+![Virtual Disk](02-virtual-disk.png)
 
 **Evidence – Screenshot 1:** VirtualBox virtual hardware and disk configuration.
 
@@ -91,7 +91,7 @@ File Explorer and Server Manager opened normally, with no significant performanc
 
 The host computer experienced minor delays when running the virtual machine alongside other applications, but remained usable.
 
-![Server Properties](screenshots/03-server-properties.png)
+![Server Properties](03-server-properties.png)
 
 **Evidence – Screenshot 2:** Server Manager – Local Server properties.
 
@@ -167,7 +167,8 @@ Although the DNS server name appeared as "Unknown", the query returned valid res
 
 **Status: PASS**
 
-![Network Connectivity Tests](screenshots/04-network-tests.png)
+![Network Tests](04-network-tests.png)
+
 **Evidence – Screenshot 3:** Command Prompt showing gateway, external connectivity, and DNS test results.
 
 ## 6. Virtual Machine Snapshot
@@ -182,7 +183,8 @@ The snapshot preserves the initial server state before installing Active Directo
 
 **Result:** Snapshot created successfully.
 
-![Clean Installation Snapshot](screenshots/05-clean-snapshot.png)
+![Clean Installation Snapshot](05-clean-snapshot.png)
+
 **Evidence – Screenshot 4:** VirtualBox Snapshots showing the clean installation snapshot.
 
 ## 7. Final Results
