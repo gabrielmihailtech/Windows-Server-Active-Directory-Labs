@@ -43,8 +43,8 @@ The following configuration was used:
 | Host Operating System | Windows 10 Home |
 
 The virtual disk was stored on a separate internal partition to avoid using the host operating system's primary storage.
-![Virtual Machine Hardware](screenshots/01-vm-hardware.png)
-![Virtual Disk](screenshots/02-virtual-disk.png)
+01-vm-hardware.png
+02-virtual-disk.png
 **Evidence – Screenshot 1:** VirtualBox virtual hardware and disk configuration.
 
 ## 2. Windows Server Installation
